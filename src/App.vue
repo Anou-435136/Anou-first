@@ -79,11 +79,6 @@
 import CommonHeader from "./components/CommonHeader.vue";
 import CommonFooter from "./components/CommonFooter.vue";
 export default {
-  data() {
-    return {
-
-    };
-  },
   components: {
     CommonHeader,
     CommonFooter
@@ -91,7 +86,7 @@ export default {
 };
 </script>
 
-<style scoped>
+<style>
 @charset "UTF-8";
 
 /*
@@ -317,7 +312,7 @@ img {
 
 #service-content {
   margin-top: 160px;
-  height: 1700px;
+  height: 1400px;
   background-color: #cccccc;
   position: relative;
 }
@@ -367,14 +362,14 @@ img {
 
 .service-text1:nth-of-type(1) {
   position: absolute;
-  top: 280px;
-  left: 500px;
+  top: 220px;
+  left: 330px;
 }
 
 .service-text1:nth-of-type(2) {
   position: absolute;
-  top: 1050px;
-  left: 800px;
+  bottom: 250px;
+  right: 300px;
 }
 
 #sub-content {
@@ -394,7 +389,7 @@ img {
 .campany-text {
   position: absolute;
   top: 220px;
-  left: 340px;
+  left: 250px;
   color: #fff;
   z-index: 2;
 }
@@ -402,7 +397,7 @@ img {
 .recruit-text {
   position: absolute;
   top: 220px;
-  right: 350px;
+  right: 270px;
   color: #fff;
   z-index: 2;
 }

@@ -32,7 +32,7 @@
 .footer p {
   position: absolute;
   bottom: 0;
-  left: 770px;
+  left: 590px;
   font-size: 16px;
   padding: 3px;
   color: #fff;
