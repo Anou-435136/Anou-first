@@ -87,7 +87,7 @@ export default {
 </script>
 
 <style>
-@charset "UTF-8";
+/* @charset "UTF-8";はVue.jsでは必要ないです */
 
 /*
 html5doctor.com Reset Stylesheet
@@ -312,19 +312,27 @@ img {
 
 #service-content {
   margin-top: 160px;
-  height: 1400px;
+  height: 1300px;
   background-color: #cccccc;
   position: relative;
 }
 
-#service-content img {
+#service-content img:nth-of-type(1) {
+  position: absolute;
+  right: 0;
   width: 50%;
-  margin-bottom: 180px;
 }
 
-#service-content img:nth-of-type(1) {
-  margin-left: auto;
+#service-content img:nth-of-type(2) {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 50%;
 }
+
+/* #service-content img:nth-of-type(1) {
+  margin-left: auto;
+} */
 
 .service-text1 {
   width: 480px;
@@ -362,13 +370,13 @@ img {
 
 .service-text1:nth-of-type(1) {
   position: absolute;
-  top: 220px;
-  left: 330px;
+  top: 200px;
+  left: 300px;
 }
 
 .service-text1:nth-of-type(2) {
   position: absolute;
-  bottom: 250px;
+  bottom: 300px;
   right: 300px;
 }
 
